@@ -22,6 +22,7 @@ A new flutter plugin project.
   s.dependency 'AMapFoundation', '~> 1.6'
 
   s.ios.deployment_target = '8.0'
+  s.static_framework = true
   # include project framework
   s.vendored_frameworks = '**/*.framework'
   # include project .a
